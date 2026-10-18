@@ -1,0 +1,17 @@
+[project]
+name = "ucb-cs61a-structure-and-interpretation-of-computer-programs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zmm", email = "2108518962@qq.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ucb-cs61a-structure-and-interpretation-of-computer-programs = "ucb_cs61a_structure_and_interpretation_of_computer_programs:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
